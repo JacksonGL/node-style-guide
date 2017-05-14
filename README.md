@@ -860,7 +860,7 @@ Heavily inspired by them as well:
 
       return this;
     }
-  ```
+    ```
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -935,15 +935,14 @@ Heavily inspired by them as well:
     // bad
     (function(global) {
       // ...stuff...
-    })(this);↵
-    ↵
+    })(this);
     ```
 
     ```javascript
     // good
     (function(global) {
       // ...stuff...
-    })(this);↵
+    })(this);
     ```
 
   - Use indentation when making long method chains.
